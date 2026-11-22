@@ -20,17 +20,20 @@ body {
 /* This is the sidebar */
 .sidebar {
     width: 280px;
+    min-height: 100vh;
     background-color: #22204f;
     color: white;
     padding: 25px 15px;
+    flex-shrink: 0;
 }
 
-/* This is the main content area */
+/* This keeps the main area beside the sidebar */
 .main-content {
     flex: 1;
-    padding: 30px;
+    min-width: 0;
+    background-color: #fcfcff;
+    padding: 0;
 }
-
 
 /* This styles the logo at the top of the sidebar */
 .logo {
@@ -92,4 +95,99 @@ body {
     margin-top: 50px;
     padding-top: 25px;
     border-top: 1px solid #615d99;
+}
+
+/* This keeps the navbar at the top of the content area */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid #e5e5f2;
+    width: 100%;
+}
+
+.topbar h1 {
+    font-size: 32px;
+    color: #11142c;
+}
+
+/* This keeps the notification and profile on the right */
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* This styles the notification image */
+.notification img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* This keeps the profile details in one row */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* This styles the profile image */
+.user-info img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+/* This styles the dropdown */
+.user-info p {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+/* This adds spacing to the sections below the navbar */
+.welcome,
+.summary-cards,
+.dashboard-bottom {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* This is the welcome section */
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee9ff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-top: 30px;
+    min-height: 250px;
+}
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.welcome-text h2 {
+    font-size: 34px;
+    color: #11142c;
+    margin-bottom: 12px;
+}
+
+.welcome-text p {
+    font-size: 21px;
+    line-height: 1.6;
+    color: #555a80;
+}
+
+/* This keeps the illustration inside the banner */
+.welcome-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 220px;
+    object-fit: contain;
 }
