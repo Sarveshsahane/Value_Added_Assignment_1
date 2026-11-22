@@ -140,3 +140,42 @@ body {
     color: #626b8a;
     max-width: 620px;
 }
+
+/* hero buttons */
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 38px;
+}
+
+/* main button */
+.primary-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 36px;
+    background-color: #5925d5;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 14px;
+}
+
+/* arrow inside button */
+.primary-btn span {
+    font-size: 25px;
+}
+
+/* second button */
+.secondary-btn {
+    display: inline-block;
+    padding: 18px 36px;
+    border: 2px solid #7541ed;
+    color: #5925d5;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 14px;
+}
