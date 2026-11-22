@@ -118,3 +118,25 @@ body {
     height: auto;
     object-fit: contain;
 }
+
+/* hero heading */
+.hero-content h1 {
+    font-size: 60px;
+    line-height: 1.17;
+    font-weight: 750;
+    color: #10131e;
+    margin-bottom: 22px;
+}
+
+/* purple text in heading */
+.hero-content h1 span {
+    color: #5925d5;
+}
+
+/* hero paragraph */
+.hero-content p {
+    font-size: 21px;
+    line-height: 1.6;
+    color: #626b8a;
+    max-width: 620px;
+}
