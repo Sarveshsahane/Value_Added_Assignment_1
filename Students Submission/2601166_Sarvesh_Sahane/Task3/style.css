@@ -10,3 +10,62 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
 }
+
+/* This styles the navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5.5%;
+    background-color: white;
+}
+
+/* This keeps the logo and name together */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-size: 28px;
+    color: #11142c;
+}
+
+/* This keeps the navigation links in one row */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #505575;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* This highlights the active link */
+.nav-links a.active {
+    color: #6846d3;
+    border-bottom: 3px solid #6846d3;
+}
+
+/* This styles the book now button */
+.book-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #6846d3;
+    padding: 15px 28px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
