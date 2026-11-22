@@ -1,0 +1,12 @@
+/* This removes the default spacing from the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This sets the basic font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
