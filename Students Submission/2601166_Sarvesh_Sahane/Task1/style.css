@@ -1,0 +1,67 @@
+
+/* basic page settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171923;
+}
+
+/* navbar layout */
+.navbar {
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 60px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-size: 28px;
+}
+
+/* navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #424761;
+    font-size: 18px;
+}
+
+/* active page link */
+.nav-links .active {
+    color: #5925d5;
+}
+
+/* get started button */
+.nav-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #5925d5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    font-size: 17px;
+}
