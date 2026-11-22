@@ -69,3 +69,60 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* This styles the hero banner */
+.hero {
+    min-height: 460px;
+    background-image: linear-gradient(rgba(20, 25, 60, 0.35), rgba(20, 25, 60, 0.35)), url("/Task 3/Assets/07.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 5.5%;
+    color: white;
+}
+
+/* This keeps the hero text in place */
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* This keeps both hero buttons together */
+.hero-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+/* This styles the explore button */
+.explore-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #6846d3;
+    padding: 18px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* This styles the contact button */
+.contact-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
