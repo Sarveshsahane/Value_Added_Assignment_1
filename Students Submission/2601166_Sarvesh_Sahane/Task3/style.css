@@ -126,3 +126,62 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* This places the search bar over the hero section */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 1300px;
+    margin: -55px auto 0;
+    padding: 25px 35px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(30, 30, 80, 0.12);
+    position: relative;
+    gap: 25px;
+}
+
+/* This styles each search item */
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    padding: 0 20px;
+    border-right: 1px solid #dcdcec;
+}
+
+/* This keeps the search images the same size */
+.search-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* This styles the search details */
+.search-info h3 {
+    font-size: 18px;
+    color: #11142c;
+    margin-bottom: 8px;
+}
+
+.search-info p {
+    font-size: 17px;
+    color: #555a80;
+}
+
+/* This styles the search button */
+.search-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #6846d3;
+    padding: 17px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
