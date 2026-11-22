@@ -247,3 +247,131 @@ body {
     background-color: #ffe7ed;
     border: 1px solid #ffd7e2;
 }
+
+/* This creates the area for the sections below the cards */
+.dashboard-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+}
+
+/* This styles the course panel */
+.panel {
+    background-color: white;
+    border: 1px solid #e2e3f2;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(30, 30, 80, 0.05);
+}
+
+.panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #11142c;
+}
+
+/* This keeps the course details in one row */
+.course {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #eeeef5;
+}
+
+/* This styles the course images */
+.course > img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.course-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.course-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.course-info p {
+    color: #555a80;
+    font-size: 15px;
+}
+
+/* This shows the course completion percentage */
+.course-progress {
+    width: 140px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.course-progress span {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* This is the background of the progress bar */
+.progress-bar {
+    height: 10px;
+    background-color: #e6e6f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* This shows how much of the course is completed */
+.progress-fill {
+    height: 100%;
+    background-color: #6846d3;
+    border-radius: 20px;
+}
+/* This keeps each assignment in one row */
+.assignment {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #eeeef5;
+}
+
+/* This styles the assignment images */
+.assignment img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* This keeps the assignment details in the middle */
+.assignment-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.assignment-info h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.assignment-info p {
+    color: #555a80;
+    font-size: 14px;
+}
+
+/* This styles the assignment status and red pending status*/
+.status {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffcccc; 
+    color: #ff0000; 
+}
+
+
