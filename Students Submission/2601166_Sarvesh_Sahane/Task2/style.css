@@ -191,3 +191,59 @@ body {
     height: 220px;
     object-fit: contain;
 }
+
+/* This places all four cards in one row */
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.summary-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 18px;
+    min-height: 125px;
+}
+
+/* This keeps the card images the same size */
+.summary-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.card-info h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #11142c;
+}
+
+.card-info p {
+    font-size: 18px;
+    color: #42476b;
+}
+
+/* This gives each card a different background */
+.purple {
+    background-color: #e9e4ff;
+    border: 1px solid #ddd3ff;
+}
+
+.green {
+    background-color: #e0f7eb;
+    border: 1px solid #d0f0df;
+}
+
+.yellow {
+    background-color: #fff4dc;
+    border: 1px solid #ffebc4;
+}
+
+.pink {
+    background-color: #ffe7ed;
+    border: 1px solid #ffd7e2;
+}
